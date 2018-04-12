@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "94e27253e85471799b89516148d0e49c",
+    "content-hash": "c7dd2ba1f6a5a8458c901a756c2ff8a4",
     "packages": [
         {
             "name": "codeigniter/framework",
-            "version": "dev-master",
+            "version": "3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bcit-ci/CodeIgniter.git",
-                "reference": "e76217041ddcae80f11b50b44a7d409b6722ad40"
+                "reference": "71e647782764184e3aab4faffe6d99176758979f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/e76217041ddcae80f11b50b44a7d409b6722ad40",
-                "reference": "e76217041ddcae80f11b50b44a7d409b6722ad40",
+                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/71e647782764184e3aab4faffe6d99176758979f",
+                "reference": "71e647782764184e3aab4faffe6d99176758979f",
                 "shasum": ""
             },
             "require": {
@@ -37,15 +37,13 @@
             ],
             "description": "The CodeIgniter framework",
             "homepage": "https://codeigniter.com",
-            "time": "2017-09-25T16:44:51+00:00"
+            "time": "2018-03-22T14:48:55+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "codeigniter/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

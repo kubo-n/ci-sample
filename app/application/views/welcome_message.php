@@ -9,8 +9,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Hello World!!!!</h1>
+	<h1>Hello World!!!!!!!!</h1>
+	<h2><?php echo $title; ?></h2>
 </div>
-
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
     "require": {
-            "codeigniter/framework": "dev-master"
+            "codeigniter/framework": "3.1.8"
     }
 }
 

@@ -18,9 +18,20 @@ class Recipe extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	//【ページ遷移】
+	////topページ
 	public function index()
 	{
 		$this->load->view('top');
+	}
+	////listページ
+	public function list()
+	{
+		$this->load->view('list');
+		//DB接続
+		$this->load->model("model_users");
+		$this->model_users->insert_into_user();
+		$db['default']['localhost'] = 'mysqli';
 	}
 
 	public function get($title)

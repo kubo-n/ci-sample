@@ -30,8 +30,8 @@ class Recipe extends CI_Controller {
 		$this->load->view('list');
 		//DB接続
 		$this->load->model("model_users");
-		$this->model_users->insert_into_user();
-		$db['default']['localhost'] = 'mysqli';
+		$this->model_users->__construct();
+//		$db['default']['localhost'] = 'mysqli';
 	}
 
 	public function get($title)

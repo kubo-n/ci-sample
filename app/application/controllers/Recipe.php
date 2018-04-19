@@ -18,7 +18,7 @@ class Recipe extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	//【ページ遷移】
+
 	////topページ
 	public function index()
 	{
@@ -27,11 +27,19 @@ class Recipe extends CI_Controller {
 	////listページ
 	public function list()
 	{
-		$this->load->view('list');
 		//DB接続
 		$this->load->model("model_users");
 		$this->model_users->__construct();
-//		$db['default']['localhost'] = 'mysqli';
+		//title取得クエリ
+		$query = $this->db->query('select title,id from recipe_header');
+		
+		foreach ($query->result_array() as $row)
+		{
+    	     $row['title'];
+        	 $row['id']; 
+		}
+		//情報受渡し
+		$this->load->view('list',$query);
 	}
 
 	public function get($title)

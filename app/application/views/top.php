@@ -5,9 +5,9 @@
     <title>MY RECIPE</title>
 </head>
 <body>
-    <body background="img/back.gif" text="#660000">
+    <body src="img/back.gif" text="#660000">
         <div align="center">
-        <img src="img/title.jpg" width="500" alt="title">
+        <img src="../img/title.jpg" width="500" alt="title">
         <br><br>
         <hr width="500">
 <!--        <a href="top.php">トップ</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->

@@ -85,7 +85,7 @@
         ?>        
         <form id="read_form" name="form1" method ="post" action="read.php">
         <p class="txt">
-<!--            <a href="read.php?id=<?php echo $row['id']?>&title=<?php echo $row['title']?>"><?php echo $row['title']?></a>-->
+        <h2><?php echo $title; ?></h2>
         </p>
         </form>
         <?php

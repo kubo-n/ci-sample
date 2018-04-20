@@ -57,7 +57,7 @@
     }
 </script>
 <body>
-    <body background="img/back.gif" text="#660000">
+    <body background="../img/back.gif" text="#660000">
     <style>
         .wrapper {
             margin: 0 auto;
@@ -70,14 +70,14 @@
         }
     </style>
      <div class="wrapper">
-        <img src="img/title.jpg" width="500" alt="title">
+        <img src="../img/title.jpg" width="500" alt="title">
         <br><br>
         <hr width="500">
         <a href="http://192.168.33.10/Recipe/index">トップ</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 　      <a href="http://192.168.33.10/Recipe/list">記事一覧</a><br>
         <hr width="500">
         <p class="txt">
-        <a href="input.php">新規</a>
+        <a href="http://192.168.33.10/Recipe/input">新規</a>
         <br></p>
         <?php //if ($stmh != ''){
               //titleを配列にして表示   

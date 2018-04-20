@@ -35,11 +35,30 @@ class Recipe extends CI_Controller {
 		
 		foreach ($query->result_array() as $row)
 		{
-    	     echo $row['title'];
-        	  $row['id']; 
+    	      echo $row['title'];
+        	  echo $row['id']; 
 		}
 		//情報受渡し
 		$this->load->view('list',$query);
+	}
+
+	////inputページ
+	public function input()
+	{
+		//DB接続
+		//$this->load->model("model_users");
+		//$this->model_users->__construct();
+		//title取得クエリ
+		//$query = $this->db->query('select title,id from recipe_header');
+		
+		//foreach ($query->result_array() as $row)
+		//{
+    	//      $row['title'];
+        //	  $row['id']; 
+		//}
+		//情報受渡し
+		//$this->load->view('list',$query);
+		$this->load->view('input');
 	}
 
 	public function get($title)

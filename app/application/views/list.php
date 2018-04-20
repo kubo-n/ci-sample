@@ -85,7 +85,7 @@
         ?>        
         <form id="read_form" name="form1" method ="post" action="read.php">
         <p class="txt">
-        <h2><?php echo $title; ?></h2>
+        <h2><?php $title; ?></h2>
         </p>
         </form>
         <?php

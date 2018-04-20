@@ -35,8 +35,8 @@ class Recipe extends CI_Controller {
 		
 		foreach ($query->result_array() as $row)
 		{
-    	     $row['title'];
-        	 $row['id']; 
+    	     echo $row['title'];
+        	  $row['id']; 
 		}
 		//情報受渡し
 		$this->load->view('list',$query);

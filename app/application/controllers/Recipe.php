@@ -29,17 +29,16 @@ class Recipe extends CI_Controller {
 	{
 		//DB接続
 		$this->load->model("model_users");
-		$this->model_users->__construct();
-		//title取得クエリ
-		$query = $this->db->query('select title,id from recipe_header');
-		
-		foreach ($query->result_array() as $row)
-		{
-    	      echo $row['title'];
-        	  echo $row['id']; 
-		}
+		//title取得''
+		$this->model_users->title_select($data);
+		//$this->model_users->__construct();
+		//title取得''
+		//$query = $this->db->query('select title,id from recipe_header');
+		//$data['result'] = $query->result_array();
+
 		//情報受渡し
-		$this->load->view('list',$query);
+		$this->load->view('list',$data);
+//		$this->load->view('list','result');
 	}
 
 	////inputページ

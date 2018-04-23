@@ -48,7 +48,7 @@
         //return true;
         //window.location.href = 'read.php'
 
-        var xhttpreq = new XMLHttpRequest();zzzzz
+        var xhttpreq = new XMLHttpRequest();
         xhttpreq.onreadystatechange = function(){
             
         }
@@ -79,18 +79,19 @@
         <p class="txt">
         <a href="http://192.168.33.10/Recipe/input">新規</a>
         <br></p>
-        <?php //if ($stmh != ''){
+        <?php
+             if ($result != ''){
               //titleを配列にして表示   
-              //foreach ($stmh as  $row) : 
+              foreach ($result as  $row) : 
         ?>        
         <form id="read_form" name="form1" method ="post" action="read.php">
         <p class="txt">
-        <h2><?php $title; ?></h2>
+        <a href="read.php?id=<?php echo $row['id']?>&title=<?php echo $row['title']?>"><?php echo $row['title']?></a>
         </p>
         </form>
         <?php
-//            endforeach;
-//        }
+            endforeach;
+        }
         ?>
         <hr width="500">
     </div>

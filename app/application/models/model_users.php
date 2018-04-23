@@ -18,4 +18,10 @@ class model_users extends CI_Model {
         );
         $this->db->insert("users", $data);
     }
+
+    public  function title_select(){
+        //title取得クエリ
+        return $this->db->query('select title,id from recipe_header');
+        $data['result'] = $query->result_array();
+    }
 }

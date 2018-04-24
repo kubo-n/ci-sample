@@ -2,36 +2,37 @@
 <html lang="ja">
 <?php
 	// // サーバ
-	$db_user = "testuser";
-	$db_pass = "Nananana1?";
-	$db_host = "localhost";
-	$db_name = "recipe";
-	$db_type = "mysql";
+//	$db_user = "testuser";
+//	$db_pass = "Nananana1?";
+//	$db_host = "localhost";
+//	$db_name = "recipe";
+//	$db_type = "mysql";
 
-	$dsn = "$db_type:host=$db_host;dbname=$db_name;charset=utf8";
-	try
-	{
-		$pdo = new PDO($dsn,$db_user,$db_pass);
-		$pdo -> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-		$pdo -> setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
-	}
-	catch(PDOException $Ecception)
-	{
-		die('エラー:'.$Ecception->getMessage());
-    }
-    try
-	{	
-        $title = $_GET[title];
-        $id = $_GET[id];
+//	$dsn = "$db_type:host=$db_host;dbname=$db_name;charset=utf8";
+//	try
+//	{
+//		$pdo = new PDO($dsn,$db_user,$db_pass);
+//		$pdo -> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+//		$pdo -> setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
+//	}
+//	catch(PDOException $Ecception)
+//	{
+//		die('エラー:'.$Ecception->getMessage());
+//    }
+//    try
+//	{	
+//        $title = $_GET[title];
+//        $id = $_GET[id];
 
 		//ヘッダー情報を取得
-		$pdo -> beginTransaction();		
-        $stmh = $pdo->prepare("select*from recipe_header where id =$id");
-		$stmh->execute();
-        $pdo -> commit();
+//		$pdo -> beginTransaction();		
+//        $stmh = $pdo->prepare("select*from recipe_header where id =$id");
+//		$stmh->execute();
+//        $pdo -> commit();
 
         //ヘッダー内容の確認
-        foreach ($stmh as $row) :
+        foreach ($result as $row) :
+            $title = $row['title'];
             $amount = $row['amount'];
             $ingredients = $row['ingredients'];
             $memo = $row['memo'];
@@ -41,118 +42,91 @@
         endforeach;
 
         //ディテール情報を取得(レシピ1)⇒面倒くさい処理。10個必要。
-        $pdo -> beginTransaction();		
-        $stmh1 = $pdo->prepare("select step from recipe_detail where id =$id and number = 1 order by number");
-        $stmh1->execute();
-        $pdo -> commit();
-        foreach ($stmh1 as $row1):
+//        $pdo -> beginTransaction();		
+//        $stmh1 = $pdo->prepare("select step from recipe_detail where id =$id and number = 1 order by number");
+//        $stmh1->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh1 as $row1):
         $recipe1 = $row1[0];
-        endforeach;
+        endforeach;*/
         //ディテール情報を取得(レシピ2)
-        $pdo -> beginTransaction();		
-        $stmh2 = $pdo->prepare("select step from recipe_detail where id =$id and number = 2 order by number");
-        $stmh2->execute();
-        $pdo -> commit();
-        foreach ($stmh2 as $row2):
+//        $pdo -> beginTransaction();		
+//        $stmh2 = $pdo->prepare("select step from recipe_detail where id =$id and number = 2 order by number");
+//        $stmh2->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh2 as $row2):
         $recipe2 = $row2[0];
-        endforeach;
+        endforeach;*/
         //ディテール情報を取得(レシピ3)
-        $pdo -> beginTransaction();		
-        $stmh3 = $pdo->prepare("select step from recipe_detail where id =$id and number = 3 order by number");
-        $stmh3->execute();
-        $pdo -> commit();
-        foreach ($stmh3 as $row3):
+//      $pdo -> beginTransaction();		
+//        $stmh3 = $pdo->prepare("select step from recipe_detail where id =$id and number = 3 order by number");
+//        $stmh3->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh3 as $row3):
         $recipe3 = $row3[0];
-        endforeach; 
+        endforeach;*/ 
         //ディテール情報を取得(レシピ4)
-        $pdo -> beginTransaction();		
-        $stmh4 = $pdo->prepare("select step from recipe_detail where id =$id and number = 4 order by number");
-        $stmh4->execute();
-        $pdo -> commit();
-        foreach ($stmh4 as $row4):
+//        $pdo -> beginTransaction();		
+//        $stmh4 = $pdo->prepare("select step from recipe_detail where id =$id and number = 4 order by number");
+//        $stmh4->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh4 as $row4):
         $recipe4 = $row4[0];
-        endforeach;
+        endforeach;*/
         //ディテール情報を取得(レシピ5)
-        $pdo -> beginTransaction();		
-        $stmh5 = $pdo->prepare("select step from recipe_detail where id =$id and number = 5 order by number");
-        $stmh5->execute();
-        $pdo -> commit();
-        foreach ($stmh5 as $row5):
+//        $pdo -> beginTransaction();		
+//       $stmh5 = $pdo->prepare("select step from recipe_detail where id =$id and number = 5 order by number");
+//        $stmh5->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh5 as $row5):
         $recipe5 = $row5[0];
-        endforeach;
+        endforeach;*/
         //ディテール情報を取得(レシピ6)
-        $pdo -> beginTransaction();		
-        $stmh6 = $pdo->prepare("select step from recipe_detail where id =$id and number = 6 order by number");
-        $stmh6->execute();
-        $pdo -> commit();
-        foreach ($stmh6 as $row6):
+//        $pdo -> beginTransaction();		
+//        $stmh6 = $pdo->prepare("select step from recipe_detail where id =$id and number = 6 order by number");
+//        $stmh6->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh6 as $row6):
         $recipe6 = $row6[0];
-        endforeach;
+        endforeach;*/
         //ディテール情報を取得(レシピ7)
-        $pdo -> beginTransaction();		
-        $stmh7 = $pdo->prepare("select step from recipe_detail where id =$id and number = 7 order by number");
-        $stmh7->execute();
-        $pdo -> commit();
-        foreach ($stmh7 as $row7):
+//        $pdo -> beginTransaction();		
+//        $stmh7 = $pdo->prepare("select step from recipe_detail where id =$id and number = 7 order by number");
+//        $stmh7->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh7 as $row7):
         $recipe7 = $row7[0];
-        endforeach;
+        endforeach;*/
         //ディテール情報を取得(レシピ8)
-        $pdo -> beginTransaction();		
-        $stmh8 = $pdo->prepare("select step from recipe_detail where id =$id and number = 8 order by number");
-        $stmh8->execute();
-        $pdo -> commit();
-        foreach ($stmh8 as $row8):
+//        $pdo -> beginTransaction();		
+//        $stmh8 = $pdo->prepare("select step from recipe_detail where id =$id and number = 8 order by number");
+//        $stmh8->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh8 as $row8):
         $recipe8 = $row8[0];
-        endforeach;
+        endforeach;*/
         //ディテール情報を取得(レシピ9)
-        $pdo -> beginTransaction();		
-        $stmh9 = $pdo->prepare("select step from recipe_detail where id =$id and number = 9 order by number");
-        $stmh9->execute();
-        $pdo -> commit();
-        foreach ($stmh9 as $row9):
+//        $pdo -> beginTransaction();		
+//        $stmh9 = $pdo->prepare("select step from recipe_detail where id =$id and number = 9 order by number");
+//        $stmh9->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh9 as $row9):
         $recipe9 = $row9[0];
-        endforeach;
+        endforeach;*/
         //ディテール情報を取得(レシピ10)
-        $pdo -> beginTransaction();		
-        $stmh10 = $pdo->prepare("select step from recipe_detail where id =$id and number = 10 order by number");
-        $stmh10->execute();
-        $pdo -> commit();
-        foreach ($stmh10 as $row10):
+//        $pdo -> beginTransaction();		
+//        $stmh10 = $pdo->prepare("select step from recipe_detail where id =$id and number = 10 order by number");
+//        $stmh10->execute();
+//        $pdo -> commit();
+        /*foreach ($stmh10 as $row10):
         $recipe10 = $row10[0];
-        endforeach;
-    /*    $row3[9];    
-
-        for( $i = 0 ; $i == 9 ; $i++)
-        {
- 		// //ディテール情報を取得
-         $pdo -> beginTransaction();		
-         $stmh2 = $pdo->prepare("select step from recipe_detail where id =$id and number = $i");
-         $stmh2->execute();
-         $pdo -> commit();
-         echo  $stmh2;
-         
-        // foreach文で配列の中身を一行ずつ出力
-        //foreach ($stmh2 as $row2):
-        $row3[$i] = $stmh2[0];
-        //echo $recipe1;
-        //echo $stmh2[0];
-        $recipe2 = $row2[1];
-        $recipe3 = $row2[2];
-        $recipe4 = $row2[3];
-        $recipe5 = $row2[4];
-        $recipe6 = $row2[5];
-        $recipe7 = $row2[6];
-        $recipe8 = $row2[7];
-        $recipe9 = $row2[8];
-        $recipe10 = $row2[9];
-        //endforeach;
-        }*/
-    }
-	catch(PDOException $Exception)
-	{
-		$pdo -> rollBack();
-		print"エラーです:".$Exception -> getMessage();
-	}
+        endforeach;*/
+//    }
+//	catch(PDOException $Exception)
+//	{
+//		$pdo -> rollBack();
+//		print"エラーです:".$Exception -> getMessage();
+//	}
 ?>
 <head>
     <meta charset="UTF-8">
@@ -278,7 +252,7 @@
     }
 </script> 
 <body onload="adustTextarea();">
-    <body background="img/back.gif" text="#660000">
+    <body background="../img/back.gif" text="#660000">
     <style>
         .wrapper {
             margin: 0 auto;
@@ -291,15 +265,15 @@
         }
     </style>
     <div class="wrapper">
-        <img src="img/title.jpg" width="500" alt="title">
+        <img src="../img/title.jpg" width="500" alt="title">
         <br><br>
         <hr width="500">
-        <a href="index.html">トップ</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-　      <a href="list.php">記事一覧</a><br>
+        <a href="http://192.168.33.10/Recipe/index">トップ</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+　      <a href="http://192.168.33.10/Recipe/list">記事一覧</a><br>
         <hr width="500">
         <p class="txt">
         <!--タイトル-->
-        <img src="img/kitchen3.jpg" width="200" alt="kitchen" align="middle">
+        <img src="../img/kitchen3.jpg" width="200" alt="kitchen" align="middle">
         <br><br>
         <input type="text" style="border:0;background-color:transparent;color:#660000;font-size:25px;" readonly value="<?php echo $title?>" name="title" id="title" size="48"><br><br>
         <?php if ($picture != ""){ ?>

@@ -19,45 +19,32 @@ class Recipe extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-	////topページ
+	//【topページ】
 	public function index()
 	{
 		$this->load->view('top');
 	}
-	////listページ
+	//【listページ】
 	public function list()
 	{
 		//DB接続
 		$this->load->model("model_users");
-		//title取得''
-		$this->model_users->title_select($data);
 		//$this->model_users->__construct();
-		//title取得''
-		//$query = $this->db->query('select title,id from recipe_header');
-		//$data['result'] = $query->result_array();
-
+		//title取得クエリ結果取得(↓の記述でモデルのtitle_selectの結果が取得できる)
+		$data['result'] = $this->model_users->title_select();
 		//情報受渡し
 		$this->load->view('list',$data);
-//		$this->load->view('list','result');
 	}
 
-	////inputページ
-	public function input()
+	//【readページ】
+	public function read()
 	{
 		//DB接続
-		//$this->load->model("model_users");
-		//$this->model_users->__construct();
-		//title取得クエリ
-		//$query = $this->db->query('select title,id from recipe_header');
-		
-		//foreach ($query->result_array() as $row)
-		//{
-    	//      $row['title'];
-        //	  $row['id']; 
-		//}
+		$this->load->model("model_users");
+		//表示内容select取得クエリ結果取得
+		$data['result'] = $this->model_users->read_select_header();		
 		//情報受渡し
-		//$this->load->view('list',$query);
-		$this->load->view('input');
+		$this->load->view('read',$data);
 	}
 
 	public function get($title)

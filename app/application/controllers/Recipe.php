@@ -24,13 +24,14 @@ class Recipe extends CI_Controller {
 	{
 		$this->load->view('top');
 	}
+
 	//【listページ】
 	public function list()
 	{
-		//DB接続
+		//モデル接続
 		$this->load->model("model_users");
 		//$this->model_users->__construct();
-		//title取得クエリ結果取得(↓の記述でモデルのtitle_selectの結果が取得できる)
+		//title取得クエリ結果取得(↓の記述で,モデルのtitle_selectの結果が取得できる)
 		$data['result'] = $this->model_users->title_select();
 		//情報受渡し
 		$this->load->view('list',$data);
@@ -39,12 +40,18 @@ class Recipe extends CI_Controller {
 	//【readページ】
 	public function read()
 	{
-		//DB接続
+		$id = $_GET['id'];
+		//echo $id;
+
+		//モデル接続
 		$this->load->model("model_users");
+		$this->model_users->read_select_header($id);
+		
 		//表示内容select取得クエリ結果取得
-		$data['result'] = $this->model_users->read_select_header();		
+		$data['result'] = $this->model_users->read_select_header();
 		//情報受渡し
 		$this->load->view('read',$data);
+		//$this->load->view('read',$data,$row);
 	}
 
 	public function get($title)
@@ -53,11 +60,5 @@ class Recipe extends CI_Controller {
 
 		$data['title'] = $this->welcome_model->get();;
 		$this->load->view('welcome_message', $data);
-	}
-
-	public function push()
-	{
-		$data['testkubo'] = 'ごめんなさい';
-		$this->load->view('kubokubokubo', $data);
 	}
 }

@@ -26,9 +26,10 @@ class model_users extends CI_Model {
         return $query->result_array();
     }
     
-    public  function read_select_header(){
+    public  function read_select_header($id){
+        //echo $id;
         //表示内容select取得クエリ
-        $query = $this->db->query('select*from recipe_header where id = 1');
+        $query = $this->db->query('select*from recipe_header where id =');
         //select結果を配列として返す
         return $query->result_array();
     }

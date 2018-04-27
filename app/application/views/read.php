@@ -352,7 +352,7 @@
         ?>
         <p class="txt">
         &emsp;&emsp;&emsp;&emsp;&emsp;
-        <a href="list.php">戻る</a>
+        <a href="http://192.168.33.10/Recipe/list">戻る</a>
         </p>
         <a href="pre_update.php?id=<?php echo $row['id']?>&title=<?php echo $row['title']?>">編集</a>
         &emsp;&emsp;&emsp;&emsp;&emsp;

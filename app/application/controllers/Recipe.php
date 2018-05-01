@@ -71,7 +71,7 @@ class Recipe extends CI_Controller {
 			$data['result'] = $this->model_users->read_select_header($id);
 			$data['result_detail'] = $this->model_users->read_select_detail($id);
 			//情報受渡し
-			$this->load->view('read',$data);
+			$this->load->view('pre_update',$data);
 			error_log(print_r($data, true).date('Y/m/d H:i:s'), 3, "/app/log/aaa_debug.log");
 		}
 

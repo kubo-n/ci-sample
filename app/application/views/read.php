@@ -8,9 +8,8 @@
             $ingredients = $row['ingredients'];
             $memo = $row['memo'];
             $picture = $row['picture'];            
-//            $inserted_date = $row['inserted_date'];
-//            $updated_date = $row['updated_date'];
         endforeach;
+        
         //ディテール内容の確認
         foreach ($result_detail as $row2) :
             $recipe[] = $row2['step'];
@@ -232,7 +231,7 @@
         <textarea  name="recipe10" style="border:0;background-color:transparent;color:#660000;" readonly id="recipe10" rows="3" cols="50" wrap="hard"><?php echo $recipe[9]?></textarea><br>
         <?php 
         }
-        if ($memo != ""){
+        if (isset($memo)){
         ?>
         その他メモ<br>&emsp;&emsp;&emsp;&emsp;&emsp;
         <textarea name="memo" style="border:0;background-color:transparent;color:#660000;" readonly id="memo" rows="5" cols="50" wrap="hard"><?php echo $memo?></textarea><br></p>
@@ -244,7 +243,8 @@
         &emsp;&emsp;&emsp;&emsp;&emsp;
         <a href="http://192.168.33.10/Recipe/list">戻る</a>
         </p>
-        <a href="pre_update.php?id=<?php echo $row['id']?>&title=<?php echo $row['title']?>">編集</a>
+<!--        <a href="pre_update.php?id=<?php echo $row['id']?>&title=<?php echo $row['title']?>">編集</a>-->
+        <a href="http://192.168.33.10/Recipe/pre_update?id=<?php echo $row['id']?>&title=<?php echo $row['title']?>">編集</a>
         &emsp;&emsp;&emsp;&emsp;&emsp;
         <form id="delete_form" name="form1" method ="post" action="delete.php">
 <!--        <input type ="hidden" name ="id" value="<?php echo $id?>">-->

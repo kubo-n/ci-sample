@@ -307,4 +307,2512 @@ Array
         )
 
 )
-2018/05/01 06:47:10
+2018/05/01 06:47:10Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:09:16Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:12:57Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:13:01Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:15:57Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:16:00Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:17:23Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:17:59Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:18:03Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:18:37Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:18:39Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:19:34Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:19:39Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:19:42Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:20:48Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:20:50Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:23:43Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:23:47Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:23:51Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:23:57Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:23:59Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:24:04Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:24:06Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:24:10Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:24:13Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:25:17Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:25:20Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:27:47Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:27:50Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:28:01Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:28:09Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:28:54Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:28:57Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:29:05Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:29:07Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:30:20Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:30:26Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:30:28Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 07:33:55Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:33:58Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:34:02Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:35:03Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:35:07Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:52:17Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:52:20Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:53:29Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:53:32Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:55:51Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 07:55:56Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:03:08Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:05:02Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:05:04Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:07:08Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:07:10Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:08:55Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:08:57Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 08:09:05Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 08:09:07Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 08:09:39Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [title] => 味噌汁
+                    [amount] => 2
+                    [ingredients] => 水、味噌、出汁、豆腐、わかめ
+                    [memo] => 基礎的味噌汁
+                    [picture] => アップした画像
+                    [inserted_date] => 2018-04-27 10:36:49
+                    [updated_date] => 2018-04-27 10:36:49
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 湯を沸かす。
+                )
+
+        )
+
+)
+2018/05/01 08:09:54Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:13:35Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:13:39Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:13:45Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:15:39Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:15:39Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:15:41Array
+(
+    [result] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [title] => ご飯
+                    [amount] => 2
+                    [ingredients] => 米、水
+                    [memo] => ご飯メモ
+                    [picture] => ご飯.jpg
+                    [inserted_date] => 2018-04-24 06:21:42
+                    [updated_date] => 2018-04-24 06:21:42
+                )
+
+        )
+
+    [result_detail] => Array
+        (
+            [0] => Array
+                (
+                    [step] => 米を研ぐ。
+                )
+
+            [1] => Array
+                (
+                    [step] => 米を炊く。
+                )
+
+            [2] => Array
+                (
+                    [step] => 米を蒸す。
+                )
+
+            [3] => Array
+                (
+                    [step] => よく混ぜる。
+                )
+
+        )
+
+)
+2018/05/01 08:15:47

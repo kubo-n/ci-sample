@@ -1,38 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-<?php
-	// // サーバ接続
-//	$db_user = "testuser";
-//	$db_pass = "Nananana1?";
-//	$db_host = "localhost";
-//	$db_name = "recipe";
-//	$db_type = "mysql";
-
-//	$dsn = "$db_type:host=$db_host;dbname=$db_name;charset=utf8";
-//	try
-//	{
-//		$pdo = new PDO($dsn,$db_user,$db_pass);
-//		$pdo -> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-//		$pdo -> setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
-//	}
-//	catch(PDOException $Ecception)
-//	{
-//		die('エラー:'.$Ecception->getMessage());
-//  }
-//    try
-//	{		
-		//ヘッダーからtitleを取得
-//		$pdo -> beginTransaction();		
-//		$stmh = $pdo->prepare("select title,id from recipe_header");
-//		$stmh->execute();
-//      $pdo -> commit();
-//	}
-//	catch(PDOException $Exception)
-//	{
-//		$pdo -> rollBack();
-//		print"エラーです:".$Exception -> getMessage();
-//	}
-?>
 <head>
     <meta charset="UTF-8">
     <title>記事一覧</title>

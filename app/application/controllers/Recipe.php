@@ -46,12 +46,13 @@ class Recipe extends CI_Controller {
 		//モデル接続
 		$this->load->model("model_users");
 		$this->model_users->read_select_header($id);
+		$this->model_users->read_select_detail($id);
 		
 		//表示内容select取得クエリ結果取得
-		$data['result'] = $this->model_users->read_select_header();
+		$data['result'] = $this->model_users->read_select_header($id);
+		$data_detail['result_detail'] = $this->model_users->read_select_detail($id);
 		//情報受渡し
-		$this->load->view('read',$data);
-		//$this->load->view('read',$data,$row);
+		$this->load->view('read',$data,$data_detail,$id);
 	}
 
 	public function get($title)

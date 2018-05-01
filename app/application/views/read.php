@@ -40,6 +40,11 @@
 //            $inserted_date = $row['inserted_date'];
 //            $updated_date = $row['updated_date'];
         endforeach;
+        //ディテール内容の確認
+    //    foreach ($result_detail as $row) :
+    //        $step = $row['step'];
+    //    endforeach;
+
 
         //ディテール情報を取得(レシピ1)⇒面倒くさい処理。10個必要。
 //        $pdo -> beginTransaction();		
@@ -286,7 +291,7 @@
         
         レシピ<br>
         &emsp;&emsp;&emsp;&emsp;1<br>&emsp;&emsp;&emsp;&emsp;&emsp;
-        <textarea  name="recipe1" style="border:0;background-color:transparent;color:#660000;" readonly id="recipe1" rows="3" cols="50" wrap="hard"><?php echo $recipe1?></textarea><br>
+        <textarea  name="recipe1" style="border:0;background-color:transparent;color:#660000;" readonly id="recipe1" rows="3" cols="50" wrap="hard"><?php echo $step?></textarea><br>
         <?php 
         if ($recipe2 != ""){
         ?>

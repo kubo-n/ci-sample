@@ -50,10 +50,30 @@ class Recipe extends CI_Controller {
 		
 		//表示内容select取得クエリ結果取得
 		$data['result'] = $this->model_users->read_select_header($id);
-		$data_detail['result_detail'] = $this->model_users->read_select_detail($id);
+		$data['result_detail'] = $this->model_users->read_select_detail($id);
 		//情報受渡し
-		$this->load->view('read',$data,$data_detail,$id);
+		$this->load->view('read',$data);
+		error_log(print_r($data, true).date('Y/m/d H:i:s'), 3, "/app/log/aaa_debug.log");
 	}
+
+		//【pre_updateページ】
+		public function pre_update()
+		{
+			$id = $_GET['id'];
+			//echo $id;
+	
+			//モデル接続
+			$this->load->model("model_users");
+			$this->model_users->read_select_header($id);
+			$this->model_users->read_select_detail($id);
+			
+			//表示内容select取得クエリ結果取得
+			$data['result'] = $this->model_users->read_select_header($id);
+			$data['result_detail'] = $this->model_users->read_select_detail($id);
+			//情報受渡し
+			$this->load->view('read',$data);
+			error_log(print_r($data, true).date('Y/m/d H:i:s'), 3, "/app/log/aaa_debug.log");
+		}
 
 	public function get($title)
 	{

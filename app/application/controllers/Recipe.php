@@ -37,6 +37,12 @@ class Recipe extends CI_Controller {
 		$this->load->view('list',$data);
 	}
 
+	//【inputページ】
+	public function input()
+	{
+		$this->load->view('input');
+	}
+
 	//【readページ】
 	public function read()
 	{

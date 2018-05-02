@@ -86,17 +86,26 @@ class Recipe extends CI_Controller {
 	{
 		$id = $_GET['id'];
 		//echo $id;
-	
+		error_log(print_r($id, true).date('Y/m/d H:i:s'), 3, "/app/log/id.log");
 		//モデル接続
 		$this->load->model("model_users");
 		$this->model_users->delete_header($id);
-		$this->model_users->delete_detail($id);
-			
-		//表示内容select取得クエリ結果取得
-		$data['result'] = $this->model_users->delete_header($id);
-		$data['result_detail'] = $this->model_users->delete_header($id);
+		$this->model_users->delete_detail($id);			
 		//情報受渡し
-		$this->load->view('delete',$data);
+		$this->load->view('delete');
+	}
+	
+	public function insert()
+	{
+		//モデル接続
+		$this->load->model("model_users");
+		$this->model_users->select_id();		
+		//selectしたid
+		$inputdata = $this->model_users->select_id();
+		$inputdata['test'] = 'aiueooo';		
+		$this->model_users->insert_header($inputdata);
+		//情報受渡し
+		$this->load->view('entry');
 	}
 
 	public function get($title)

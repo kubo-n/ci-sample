@@ -91,7 +91,7 @@
         formdata.appendChild(filename);
         
         // 「OK」時の処理 ＋ 確認ダイアログの表示
-        xhttpreq.open("POST", "insert.php", true);
+//        xhttpreq.open("POST", "insert.php", true);
         xhttpreq.send(formdata);
         return true;
     }
@@ -114,7 +114,7 @@
         <img src="../img/title.jpg" width="500" alt="title">
         <br><br>
  
-<form id="my_form" name="form1" method ="post" action="insert.php">
+<form id="my_form" name="form1" method ="post" action="insert">
 <!--<form id="my_form" name="form1" method ="post">-->
         <hr width="500">
         <a href="http://192.168.33.10/Recipe/index">トップ</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;

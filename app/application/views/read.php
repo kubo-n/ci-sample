@@ -133,8 +133,8 @@
         var formdata = new FormData(document.getElementById("delete_form"))
         // 「OK」時の処理 ＋ 確認ダイアログの表示
         if(window.confirm('削除してもよろしいですか？')){
-//            location.href = "delete.php"; // 遷移
-            xhttpreq.open("POST", "http://192.168.33.10/Recipe/delete", true);
+         //   location.href = "http://192.168.33.10/Recipe/delete"; // 遷移
+            //xhttpreq.open("POST", "http://192.168.33.10/Recipe/delggugjgjgjy", true);
             xhttpreq.send(formdata);
             return true;
         }
@@ -246,7 +246,7 @@
 <!--        <a href="pre_update.php?id=<?php echo $row['id']?>&title=<?php echo $row['title']?>">編集</a>-->
         <a href="http://192.168.33.10/Recipe/pre_update?id=<?php echo $row['id']?>&title=<?php echo $row['title']?>">編集</a>
         &emsp;&emsp;&emsp;&emsp;&emsp;
-        <form id="delete_form" name="form1" method ="post" action="delete.php">
+        <form id="delete_form" name="id" method ="post" action="delete?id=<?php echo $row['id']?>">
 <!--        <input type ="hidden" name ="id" value="<?php echo $id?>">-->
         <input type="submit" value="削除" onclick="Javascript:transition();return false;">
         </form>

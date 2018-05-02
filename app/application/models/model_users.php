@@ -43,14 +43,45 @@ class model_users extends CI_Model {
     public  function delete_header($id){
         //header削除クエリ
         $query = $this->db->query('delete from recipe_header where id =' .$this->db->escape_str($id));
-        //delete結果を配列として返す
-        return $query->result_array();
     }
 
     public  function delete_detail($id){
         //detail削除クエリ
         $query = $this->db->query('delete from recipe_detail where id =' .$this->db->escape_str($id));
-        //delete結果を配列として返す
-        return $query->result_array();
+    }
+
+    public  function select_id(){
+        //selectクエリ
+        $query = $this->db->query('select max(id)+1 as maxid from recipe_header');
+        //select結果を配列として返す
+        error_log(print_r($query, true).date('Y/m/d H:i:s'), 3, "/app/log/query_debug.log");
+        return $query->row_array();
+    }
+    
+    public  function insert_header($inputdata){
+        $maxid = $inputdata['maxid'];
+        $test = $inputdata['test'];
+        error_log(print_r($maxid, true).date('Y/m/d H:i:s'), 3, "/app/log/id1.log");
+        error_log(print_r($test, true).date('Y/m/d H:i:s'), 3, "/app/log/id2.log"); 
+        error_log(print_r($inputdata, true).date('Y/m/d H:i:s'), 3, "/app/log/id3.log"); 
+        
+        //insertクエリ
+        $data_header = array(
+        'id' => $maxid,
+        'title' => 'うどん' ,
+        'amount' => '2',
+        'ingredients' => '出汁、うどん',
+        'memo' => 'うどん',
+        'picture' => 'うどん',
+        'inserted_date' => 'now()',
+        'updated_date' => 'now()'
+         );
+        $this->db->insert('recipe_header', $data_header);
+    }
+
+    public  function insert_detail(){
+        //insertクエリ
+        $query = $this->db->query('insert into recipe_detail (id,number,step,inserted_date,updated_date)
+		values(:id,:number,:step,now(),now())');
     }
 }

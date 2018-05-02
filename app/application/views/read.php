@@ -134,7 +134,7 @@
         // 「OK」時の処理 ＋ 確認ダイアログの表示
         if(window.confirm('削除してもよろしいですか？')){
 //            location.href = "delete.php"; // 遷移
-            xhttpreq.open("POST", "delete.php", true);
+            xhttpreq.open("POST", "http://192.168.33.10/Recipe/delete", true);
             xhttpreq.send(formdata);
             return true;
         }

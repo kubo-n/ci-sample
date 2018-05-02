@@ -27,7 +27,6 @@ class model_users extends CI_Model {
     }
     
     public  function read_select_header($id){
-        //echo $id;
         //表示内容select取得クエリ
         $query = $this->db->query('select*from recipe_header where id =' .$this->db->escape_str($id));
         //select結果を配列として返す
@@ -35,10 +34,23 @@ class model_users extends CI_Model {
     }
 
     public  function read_select_detail($id){
-        //echo $id;
         //表示内容select取得クエリ
         $query = $this->db->query('select step from recipe_detail where id =' .$this->db->escape_str($id).' order by number');
         //select結果を配列として返す
+        return $query->result_array();
+    }
+
+    public  function delete_header($id){
+        //header削除クエリ
+        $query = $this->db->query('delete from recipe_header where id =' .$this->db->escape_str($id));
+        //delete結果を配列として返す
+        return $query->result_array();
+    }
+
+    public  function delete_detail($id){
+        //detail削除クエリ
+        $query = $this->db->query('delete from recipe_detail where id =' .$this->db->escape_str($id));
+        //delete結果を配列として返す
         return $query->result_array();
     }
 }

@@ -63,23 +63,41 @@ class Recipe extends CI_Controller {
 	}
 
 		//【pre_updateページ】
-		public function pre_update()
-		{
-			$id = $_GET['id'];
-			//echo $id;
+	public function pre_update()
+	{
+		$id = $_GET['id'];
+		//echo $id;
 	
-			//モデル接続
-			$this->load->model("model_users");
-			$this->model_users->read_select_header($id);
-			$this->model_users->read_select_detail($id);
+		//モデル接続
+		$this->load->model("model_users");
+		$this->model_users->read_select_header($id);
+		$this->model_users->read_select_detail($id);
 			
-			//表示内容select取得クエリ結果取得
-			$data['result'] = $this->model_users->read_select_header($id);
-			$data['result_detail'] = $this->model_users->read_select_detail($id);
-			//情報受渡し
-			$this->load->view('pre_update',$data);
-			error_log(print_r($data, true).date('Y/m/d H:i:s'), 3, "/app/log/aaa_debug.log");
-		}
+		//表示内容select取得クエリ結果取得
+		$data['result'] = $this->model_users->read_select_header($id);
+		$data['result_detail'] = $this->model_users->read_select_detail($id);
+		//情報受渡し
+		$this->load->view('pre_update',$data);
+		error_log(print_r($data, true).date('Y/m/d H:i:s'), 3, "/app/log/aaa_debug.log");
+	}
+
+	//【deleteページ】
+	public function delete()
+	{
+		$id = $_GET['id'];
+		//echo $id;
+	
+		//モデル接続
+		$this->load->model("model_users");
+		$this->model_users->delete_header($id);
+		$this->model_users->delete_detail($id);
+			
+		//表示内容select取得クエリ結果取得
+		$data['result'] = $this->model_users->delete_header($id);
+		$data['result_detail'] = $this->model_users->delete_header($id);
+		//情報受渡し
+		$this->load->view('delete',$data);
+	}
 
 	public function get($title)
 	{
